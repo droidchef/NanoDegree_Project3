@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="share_button">Share Button</string>
+    <string name="score_tile">Score Tile</string>
+    <string name="home_team_image">Home Team image</string>
+    <string name="away_team_image">Away Team Image</string>
+</resources>
