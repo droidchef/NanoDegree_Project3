@@ -9,7 +9,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.RemoteViews;
 
-import barqsoft.footballscores.service.myFetchService;
+import barqsoft.footballscores.service.MyFetchService;
 
 /**
  * Implementation of App Widget functionality.
@@ -56,7 +56,7 @@ public class FootballScoreAppWidget extends AppWidgetProvider {
     public void onReceive(Context context, Intent intent) {
         super.onReceive(context, intent);
 
-        if (intent.getAction().equals(myFetchService.INTENT_SCORES_UPDATED)) {
+        if (intent.getAction().equals(MyFetchService.INTENT_SCORES_UPDATED)) {
 
             Bundle bundle = intent.getExtras();
 

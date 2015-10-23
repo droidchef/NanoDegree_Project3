@@ -5,8 +5,6 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.util.Log;
 
-import barqsoft.footballscores.service.myFetchService;
-
 /**
  * Created by ishan on 13/10/15.
  */
